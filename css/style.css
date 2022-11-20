@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #3A4D7C;
+    color: white;
+    display:flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  main {
+    background-color: #1E3161;
+    margin-top: 100px;
+    height: 500px;
+    width: 1239px;
+    border-radius: 30px;
+    padding: 80px;
+  }
+  
+  #lists {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  h3 {
+    font-size: 26px;
+  }
+  
+  
+  #idiomas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  #idiomas p {
+    margin-right: 10px;
+    
+  }
+
+  #english{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 70px;
+    height: 45px;
+    background: #5AC1D8;
+    border-radius: 5px;
+
+  }
+  
+  .sobre {
+    width: 300px;
+    height: 188px;
+  }
+  
+  #links {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    color: #48587f;
+    margin-left: 340px;
+  }
+  
+  img {
+    margin-right: 24px;
+  }
